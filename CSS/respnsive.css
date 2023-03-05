@@ -1,0 +1,261 @@
+
+
+@media only screen and (max-width: 1026px) {
+
+    .aboutus-img {
+        flex-basis: 50%;
+    }
+
+    .aboutus-content-container {
+        flex-basis: 45%;
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    .product-box {
+        max-width: 49%;
+    }
+
+    .aboutus-content-container {
+        flex-basis: 55%;
+    }
+
+    .newsletter-container {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter-title {
+        margin-bottom: 1.4rem;
+    }
+
+    .sec-title {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .pageBanner h1 {
+        font-size: 14rem;
+    }
+
+    .section-padding {
+        padding: 2.5rem 0;
+    }
+
+    .section-margin {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+} 
+
+
+@media only screen and (max-width: 769px) {
+    .sec-col2 {
+        flex-direction: column;
+    }
+
+    .sec-col2 button {
+        margin-top: 1.4rem;
+    }
+
+    .aboutus-img {
+        height: 40vh;
+    }
+
+    .aboutus-container {
+        flex-direction: column;
+    }
+
+    .aboutus-content-container {
+        flex-basis: 95%;
+        margin-left: auto;
+        margin-top: -40%;
+    }
+
+    .pageBanner h1 {
+        font-size: 12rem;
+    }
+
+    .pageBanner h3 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .single-blog-container {
+        margin-top: -12%;
+    }
+
+    .single-blog-header {
+        width: 85%;
+        padding: 1.6rem;
+    }
+
+    .single-blog-header-content h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 726px) {
+    .news-container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .news-box {
+        flex-basis: 100%;
+    }
+
+    .home.newsletter {
+        margin-top: 20rem;
+    }
+
+    .section-padding {
+        padding: 2.4rem 0;
+    }
+
+    .section-margin {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+
+    .footer-col:nth-child(1),
+    .footer-col:nth-child(3) {
+        text-align: center;
+    }
+
+    .section-padding {
+        padding: 2rem 0;
+    }
+
+    .section-margin {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 538px) {
+    .product-box {
+        max-width: 100%;
+    }
+
+    .contact-location-container {
+        padding: 2rem;
+    }
+
+    .contact-location-box {
+        padding: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 472px) {
+
+    .heading1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .newsletter-container .button,
+    .newsletter-container input  {
+        width: 100%;
+    }
+
+    .newsletter-container .button {
+        margin-top: 10px;
+    }
+
+    .pageBanner h3 {
+        font-size: 50px;
+    }
+
+    .pageBanner {
+        text-align: center;
+    }
+
+    .banner {
+        height: 200px;
+    }
+
+    .section-title {
+        font-size: 50px;
+    }
+
+    .sec-subheading {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .blog .sec-title br {
+        display: none;
+    }
+
+    .news-box-content {
+        width: 94%;
+        padding: 1.4rem;
+    }
+
+    .single-blog-header-top {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .single-blog-header-content h1 {
+        font-size: 40px;
+    }
+
+    .single-blog-container {
+        margin-top: -15%;
+    }
+
+    .single-blog-header {
+        width: 96%;
+        padding: 1.4rem;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .single-blog-content {
+        width: 90%;
+    }
+
+    .single-blog-header-content h1 {
+        font-size: 32px;
+    }
+
+    .sec-para {
+        font-size: 14px;
+    }
+
+    .single-blog-content h3 {
+        font-size: 26px;
+    }
+
+    .single-blog-content div h6 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .heading1 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .section-title {
+        font-size: 46px;
+    }
+
+    .button {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+
+    
+}
